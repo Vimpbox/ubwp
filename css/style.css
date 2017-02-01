@@ -9,11 +9,43 @@ body{
 .bs-col{
 	height: 100vh;
 }
-
+/*
 .bs-col:nth-child(odd){
-background-color: coral;
+background-color: ;
 }
 
 .bs-col:nth-child(even){
 background-color: green;
+}
+*/
+.sidebar-1{
+	background-color: coral;
+}
+.main{
+	background-color: blue;
+}
+.sidebar-2{
+	background-color: green;
+}
+
+@media (max-width: 992px){
+	.sidebar-1, .main{
+		height: 80vh;
+	}
+	.sidebar-2{
+		height: 20vh;
+	}
+}
+
+
+@media (max-width: 768px){
+	.sidebar-1{
+		height: 20vh;
+	}
+	.main{
+		height: 60vh;
+	}
+	.sidebar-2{
+		height: 20vh;
+	}
 }
