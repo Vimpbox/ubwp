@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+}
+
+.bs-cont{
+	background-color: gold;
+	height: 100vh;
+}
+.bs-col{
+	height: 100vh;
+}
+
+.bs-col:nth-child(odd){
+background-color: red;
+}
+
+.bs-col:nth-child(even){
+background-color: green;
+}
