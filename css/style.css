@@ -11,7 +11,7 @@ body{
 }
 
 .bs-col:nth-child(odd){
-background-color: red;
+background-color: coral;
 }
 
 .bs-col:nth-child(even){
