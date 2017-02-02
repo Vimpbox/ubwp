@@ -3,38 +3,26 @@ body{
 }
 
 .bs-cont{
-	background-color: gold;
 	height: 100vh;
 }
 .bs-col{
 	height: 100vh;
 }
-/*
-.bs-col:nth-child(odd){
-background-color: ;
+
+.sidebar-1{
+
 }
 
-.bs-col:nth-child(even){
-background-color: green;
+code{
+	background-color: transparent;
 }
-*/
-.sidebar-1{
-	background-color: coral;
-}
-.main{
-	background-color: blue;
-}
-.sidebar-2{
-	background-color: green;
-}
+
 
 @media (max-width: 992px){
-	.sidebar-1, .main{
+	.sidebar-1{
 		height: 80vh;
 	}
-	.sidebar-2{
-		height: 20vh;
-	}
+
 }
 
 
@@ -42,10 +30,5 @@ background-color: green;
 	.sidebar-1{
 		height: 20vh;
 	}
-	.main{
-		height: 60vh;
-	}
-	.sidebar-2{
-		height: 20vh;
-	}
+
 }
