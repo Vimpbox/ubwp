@@ -8,9 +8,12 @@ body{
 .bs-col{
 	height: 100vh;
 }
+.bs-form{
+	margin-top: 10px;
+}
 
 .sidebar-1{
-
+background-color: coral;
 }
 
 code{
